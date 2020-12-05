@@ -1,0 +1,115 @@
+*{
+    background-color: #000000
+}
+
+#사각사각{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+nav ul{
+    list-style-type: none;
+    width: 90%;
+     text-decoration: overline underline;
+     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+     background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 65px;
+     text-align: center;
+    background-color: #ffffff;
+}
+
+nav ul li a{
+    color: #000000;
+    font-size: large;
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: #ffffff;
+}
+
+center{
+    padding-top: 20px;
+     margin-right: auto;
+    margin-left: auto;
+}
+
+footer{
+     width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    padding: 5px;
+    color: #000000;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.bottom{
+    background-color: #ffffff
+}
+
+
+
+.POEM{
+    font-family: sans-serif;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    width: 40%;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+#ㅅ {
+    animation-name: key;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    z-index: 1;
+    text-align: center;
+    width: 300px;
+    margin: 15px
+}
+
+@keyframes key{
+    0%{
+        opacity: 0.4;
+    }
+    50%{
+        opacity: 1.0;
+    }
+    100%{
+        opacity: 0.4;
+    }
+}
+
+.poem{
+    height: 375px;
+    overflow: auto;
+    text-align: center;
+    line-height: 30px;
+    border: 2px solid #ffffff;
+    padding: 15px;
+    color: #ffffff;
+    width: 40%
+    
+}
+
+
+.bottom{
+    background-color: #ffffff
+}
+
+
+center{
+    width: 80%;
+}
